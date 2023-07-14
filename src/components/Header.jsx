@@ -1,13 +1,16 @@
 import React from 'react'
-// import { useState } from 'react'
+import { useState } from 'react'
 import { AiOutlineUser } from 'react-icons/ai'
 import { BiSearch } from 'react-icons/bi'
 import { MdLocationOn } from 'react-icons/md'
 import { AiOutlineBars } from 'react-icons/ai'
+
 import './Header.css'
 import logo from '../assets/logo.png'
 function Header() {
-    
+  const [open, setOpen] = useState(false)
+ 
+ 
   return (
     <>
      <div className = "container-nav">
@@ -39,9 +42,9 @@ function Header() {
             </a>
           </li>
           <li>
-            <button
+          <button
               className='sidebar_toggle'
-              
+              onClick={()=>{setOpen(!open)}}
             >
               <AiOutlineBars
                 size={24}
@@ -52,9 +55,30 @@ function Header() {
         </ul>
     </div>
     
+    <div className= {`sidebar ${open ? `active` : `inactive`}`}>
+        <button
+          className='sidebar_toggle inner'
+          
+        >
+          {/* <AiOutlineBars
+            size={24}
+            style={{ color: 'black' }}
+          /> */}
+        </button>
+        <div className='sidebar-container'>
+          <div className='sidebar-container--element'>Home</div>
+          <div className='sidebar-container--element'>Rides</div>
+          <div className='sidebar-container--element'>YourBooking</div>
+          <div className='sidebar-container--element'>Location</div>
+          
+        </div>
+      </div>
+
     </>
   )
 }
+
+
 
 export default Header
 
