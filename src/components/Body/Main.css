@@ -12,9 +12,10 @@ width: 100%;
     position: absolute;
     z-index: 1;
     /* margin-top: 10px; */
-    background-color:rgb(236, 159, 77);
+    /* background-color:rgb(236, 159, 77); */
     /* height: 40px; */
     width: 100%;
+    /* opacity: 0.3; */
     
 }
 .text p{

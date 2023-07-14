@@ -60,16 +60,13 @@ function Header() {
           className='sidebar_toggle inner'
           
         >
-          {/* <AiOutlineBars
-            size={24}
-            style={{ color: 'black' }}
-          /> */}
+        
         </button>
         <div className='sidebar-container'>
-          <div className='sidebar-container--element'>Home</div>
-          <div className='sidebar-container--element'>Rides</div>
-          <div className='sidebar-container--element'>YourBooking</div>
-          <div className='sidebar-container--element'>Location</div>
+          <div className='sidebar-container'>Home</div>
+          <div className='sidebar-container'>Rides</div>
+          <div className='sidebar-container'>YourBooking</div>
+          <div className='sidebar-container'>Location</div>
           
         </div>
       </div>

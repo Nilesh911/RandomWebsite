@@ -14,8 +14,8 @@ function Main() {
     </div>
     <div className="text2">
     <span className='span1'>Get Going</span>  
-    <span className='span2'>Nilesh.p</span>    
-    <span className='span3'>Mumbai</span>  
+    {/* <span className='span2'>Nilesh.p</span>    
+    <span className='span3'>Mumbai</span>   */}
 
     </div>
     

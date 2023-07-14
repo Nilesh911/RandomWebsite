@@ -11,7 +11,7 @@ const footer = () => {
 
   return (
     <div className='footer-container'>
-        <h1 className='name'>ReadyToGo</h1>
+        {/* <h1 className='name'>ReadyToGo</h1> */}
         <div className="footer-section">
           <div className="footer-link">
             <div className="footer-div">
@@ -29,7 +29,7 @@ const footer = () => {
             </div>
             <div className="footer-div">
               <h4>THE COMPANY</h4>
-              <a href="/About Q-mart"></a>
+              <a href="/About Ready To Go"></a>
               <p>About ReadToGo</p>
               <a href="/Careers"></a>
               <p>Ride</p>
@@ -39,7 +39,7 @@ const footer = () => {
               <p>Corporate Information</p>
             </div>
             <div className="footer-div">
-              <h4>Coming soon on...</h4>
+              <h4>Join Us on...</h4>
               <div className="socialmedia">
               <a href="/">
             <AiFillInstagram
